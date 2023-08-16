@@ -39,19 +39,19 @@ def bmi_index(bmi):
     else:
         messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Obese Class 3!')
 
-#label1
+#label_1
 my_label = tkinter.Label(text= "Enter Your Weight(kg)",font=('Ariel',11,"italic"))
 my_label.pack()
 
-#entry1
+#entry_1
 my_entry = tkinter.Entry(width=20)
 my_entry.pack()
 
-#label2
+#label_2
 my_label_2 = tkinter.Label(text="Enter Your Height(cm)",font=('Ariel',11,"italic"))
 my_label_2.pack()
 
-#entry2
+#entry_2
 my_entry_2 = tkinter.Entry(width=20)
 my_entry_2.pack()
 
